@@ -47,4 +47,4 @@ The proposed normalised table consists of 8 independent tables and the data mode
 ![GitHub Logo](/Diagrams/Normalized_Table.png)
 
 ## Creating Dimension and Fact tables
-![GitHub Logo](/Diagrams/DimensionAndFactTables.png)
+![GitHub Logo](/Diagrams/CUBE_Structure.png)
