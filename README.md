@@ -48,7 +48,7 @@ The proposed normalised table consists of 8 independent tables and the data mode
 
 
 ## Business Intelligence
-**Tools:** Visual studio 2017 (SSDT), Microsoft SQL Server Management Studio </br>
+**Tools:** Visual studio 2017 Microsoft SQL Server Analysis Services (SSAS/SSDT), Microsoft SQL Server Management Studio </br>
 The effective decison making enables an organisation to provide right products in the right place at the correct time and price.The data may contain trends, correlations and dependencies. In this project I have used Multidimensional OLAP (Online Analytical Processing) CUBE that is build around measures and dimesnions table to slice,dice,drill down and roll up to see data in different views. This structure provides aggregate values by combining values from a given dimension or set of dimensions to create a single value. 
 ### Data Mart
 The Data mart is a body of historical data used specifically  to support business intelligence operations. ETL process is used to load data from different sources to the Data Mart structure. 
@@ -64,8 +64,21 @@ Following steps were done in this stage:
 * Character Set Conversion and encoding handling.
 * Check for the NULL values in various fields.
 ##### Load -
-Facts and Dimesnion tables were created using [this SQL Query](). Data is loaded to the Data Mart Structure (Create new DSV in Visual Studio Analysis(SQL Server Integration Service(SSIS))
+Facts and Dimesnion tables were created using this [SQL Query](https://github.com/HishamParol/Database_design_reporting_PowerBI/blob/main/DimAndFactTablesQuery.sql). Data is loaded to the Data Mart Structure (Create new DSV in Visual Studio Analysis(Microsoft SQL Server Analysis Services (SSAS/SSDT))
 
-DATA MART ARCHITECTURE IS SHOWN BELOW
+DATA MART ARCHITECTURE IS SHOWN BELOW (Star Schema)
 
 ![GitHub Logo](/Diagrams/CUBE_Structure.png)
+
+
+The following Business Intelligence analysis  were calculated to provide insights to the different levels of organization. 
+ Number of cancelled orders
+* Percentage of orders cancelled by the customer
+* Sales value of cancelled orders
+* Number of unfulfilled basket orders due to out of stock item(s)
+* Percentage of all unfulfilled basket orders
+* Percentage of abandoned basket orders
+* Percentage of fulfilled orders
+* Sales and quantity sold by product, by customer, by day
+
+## PowerBI Dashboard
