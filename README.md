@@ -48,7 +48,7 @@ The proposed normalised table consists of 8 independent tables and the data mode
 
 
 ## Business Intelligence
-**Tools:** Visual studio 2017 (SSDT), Microsoft SQL Server Management Studio
+**Tools:** Visual studio 2017 (SSDT), Microsoft SQL Server Management Studio </br>
 The effective decison making enables an organisation to provide right products in the right place at the correct time aNd price.The data may contain trends, correlations and dependencies. In this project I'm using Multidimensional OLAP (Online Analytical Processing) CUBE that is build around measures and dimesnions table to slice,dice,drill down and roll up to see data in different views. This structure provides aggregate values by combining values from a given dimension or set of dimensions to create a single value. 
 ### Data Mart
 The Data mart is a body of historical data used specifically  to support business intelligence operations. ETL process is used to load data from different sources to the Data Mart structure. 
@@ -64,4 +64,5 @@ Transform- Following steps were done in this stage:
 Load - Data is loaded to the Data Mart Structure (Create new DSV in Visual Studio Analysis(SQL Server Integration Service(SSIS))
 
 DATA MART ARCHITECTURE IS SHOWN BELOW
+
 ![GitHub Logo](/Diagrams/CUBE_Structure.png)
