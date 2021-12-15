@@ -30,3 +30,5 @@ Dependency based on only a part of composite PK is a partial; dependency.
 
 
 * Table OrderItem - Primary Key (OrderItemNumber) can be used to determine OrderNumber, OrderCreateDate , OrderStatusCode, BillingCurrency, Quantity,UnitPrice and LineItemTotal.I split the OrderItem table into NOrderItem and NorderGroup. 
+
+![GitHub Logo](/Diagrams/2NF_Order.png)
