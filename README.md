@@ -49,19 +49,19 @@ The proposed normalised table consists of 8 independent tables and the data mode
 
 ## Business Intelligence
 **Tools:** Visual studio 2017 (SSDT), Microsoft SQL Server Management Studio </br>
-The effective decison making enables an organisation to provide right products in the right place at the correct time aNd price.The data may contain trends, correlations and dependencies. In this project I'm using Multidimensional OLAP (Online Analytical Processing) CUBE that is build around measures and dimesnions table to slice,dice,drill down and roll up to see data in different views. This structure provides aggregate values by combining values from a given dimension or set of dimensions to create a single value. 
+The effective decison making enables an organisation to provide right products in the right place at the correct time and price.The data may contain trends, correlations and dependencies. In this project I'm using Multidimensional OLAP (Online Analytical Processing) CUBE that is build around measures and dimesnions table to slice,dice,drill down and roll up to see data in different views. This structure provides aggregate values by combining values from a given dimension or set of dimensions to create a single value. 
 ### Data Mart
 The Data mart is a body of historical data used specifically  to support business intelligence operations. ETL process is used to load data from different sources to the Data Mart structure. 
-ETL Process:
-Extract- In this process of ETL architecture, Data from Customer registry, City details, Product details and Order transaction registry are extracted and loaded into stagging area.
-Transform- Following steps were done in this stage:
+#### ETL Process:
+##### Extract- In this process of ETL architecture, Data from Customer registry, City details, Product details and Order transaction registry are extracted and loaded into stagging area.
+##### Transform- Following steps were done in this stage:
 * Data is cleaned.
 * transormed data types for few fields (eg: VariantCode, ProductGroup,ProductCode) to maintain consistant
 * FirstName and LastName are merged in Customer Table.
 * Data threshold validation check.
 * Character Set Conversion and encoding handling.
 * Check for the NULL values in various fields.
-Load - Data is loaded to the Data Mart Structure (Create new DSV in Visual Studio Analysis(SQL Server Integration Service(SSIS))
+##### Load - Data is loaded to the Data Mart Structure (Create new DSV in Visual Studio Analysis(SQL Server Integration Service(SSIS))
 
 DATA MART ARCHITECTURE IS SHOWN BELOW
 
