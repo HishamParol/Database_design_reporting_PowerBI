@@ -42,6 +42,6 @@ Eliminated the transitive dependencies.
 
 ### Final Normalised Table: 
 
-The proposed normalised table consists of 8 independent tables and the data model is shown in the diagram below. The SQL Query I did for the normalisation task is available here. Relationships between tables are added through database diagram properties. 
+The proposed normalised table consists of 8 independent tables and the data model is shown in the diagram below. The SQL Query I did for the normalisation task is available here [a link](). Relationships between tables are added through database diagram properties. 
 
 ![GitHub Logo](/Diagrams/Normalized_Table.png)
