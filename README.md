@@ -72,7 +72,7 @@ DATA MART ARCHITECTURE IS SHOWN BELOW (Star Schema)
 
 
 The following Business Intelligence analysis  were calculated to provide insights to the different levels of organization. 
- Number of cancelled orders
+* Number of cancelled orders
 * Percentage of orders cancelled by the customer
 * Sales value of cancelled orders
 * Number of unfulfilled basket orders due to out of stock item(s)
