@@ -40,4 +40,8 @@ Eliminated the transitive dependencies.
 ![GitHub Logo](/Diagrams/3NF_CustomerCity.png)
 * Table OrderItem - [OrderCreateDate → Day], [Day → Month], [Month → Quarter], [Quarter → Year]
 
+### Final Normalised Table: 
 
+The proposed normalised table consists of 8 independent tables and the data model is shown in the diagram below. The SQL Query I did for the normalisation task is available here. Relationships between tables are added through database diagram properties. 
+
+![GitHub Logo](/Diagrams/Normalized_Table.png)
