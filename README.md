@@ -12,21 +12,21 @@ The following three tables were used in this project and contain historic order,
 ### Normalisation
 Normalisation is a process for evaluating and correcting table structures.Its purpose is to remove the data redundancies, data inconsistencies and inefficient data structures. After careful observation from ER Model, ikt was found that the  given three tables were not normalised to the third normal form (3NF). However there should be a trade-off between correctness and efficiency. A high level normal form will introduce performance degradation as the database management system will need to join more tables together to produce query results. 
 ### Characteristics of normalisation
-First normal form (1NF) - Identified Primary keys and no repeating groups
-Second normal form (2NF) - Eliminated partial dependencies
-Third normal form (3NF) - Eliminated transitive dependencies. 
+* First normal form (1NF) - Identified Primary keys and no repeating groups
+* Second normal form (2NF) - Eliminated partial dependencies
+* Third normal form (3NF) - Eliminated transitive dependencies. 
 
 ### Observations:
 **First normal form: **
-Table CustomerCity (Primary key = id)
-Table Product (Composite Key = ProductGroup,ProductCode,VariantCode)
-Table OrderItem (Primary Key= OrderItemNumber)
+* Table CustomerCity (Primary key = id)
+* Table Product (Composite Key = ProductGroup,ProductCode,VariantCode)
+* Table OrderItem (Primary Key= OrderItemNumber)
 
 **Second normal form (2NF):**
 Dependency based on only a part of composite PK is a partial; dependency.
-Table CustomerCity - Primary Key (id) can be used to determine all other attributes of this table. (id,Gender,FirstName,LastName,DateRegistered,City,County,Region,Country)
+* Table CustomerCity - Primary Key (id) can be used to determine all other attributes of this table. (id,Gender,FirstName,LastName,DateRegistered,City,County,Region,Country)
 
-Table Product - Composite keys(ProductCode and VariantCode is used to determine Name,Size and Price), Composite Key ProductGroup and VariantCode is used to determine Features and Description. Thus I divided this table into two based on partial dependency. I split the Product table into NProduct and NProductGroup.
+* Table Product - Composite keys(ProductCode and VariantCode is used to determine Name,Size and Price), Composite Key ProductGroup and VariantCode is used to determine Features and Description. Thus I divided this table into two based on partial dependency. I split the Product table into NProduct and NProductGroup.
 
 
-Table OrderItem - Primary Key (OrderItemNumber) can be used to determine OrderNumber, OrderCreateDate , OrderStatusCode, BillingCurrency, Quantity,UnitPrice and LineItemTotal.I split the OrderItem table into NOrderItem and NorderGroup. 
+* Table OrderItem - Primary Key (OrderItemNumber) can be used to determine OrderNumber, OrderCreateDate , OrderStatusCode, BillingCurrency, Quantity,UnitPrice and LineItemTotal.I split the OrderItem table into NOrderItem and NorderGroup. 
