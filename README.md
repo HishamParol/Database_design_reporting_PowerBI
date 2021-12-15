@@ -17,12 +17,12 @@ Normalisation is a process for evaluating and correcting table structures.Its pu
 * Third normal form (3NF) - Eliminated transitive dependencies. 
 
 ### Observations:
-** First normal form (1NF): **
+**First normal form (1NF):**
 * Table CustomerCity (Primary key = id)
 * Table Product (Composite Key = ProductGroup,ProductCode,VariantCode)
 * Table OrderItem (Primary Key= OrderItemNumber)
 
-** Second normal form (2NF):**
+**Second normal form (2NF):**
 Dependency based on only a part of composite PK is a partial; dependency.
 * Table CustomerCity - Primary Key (id) can be used to determine all other attributes of this table. (id,Gender,FirstName,LastName,DateRegistered,City,County,Region,Country)
 
