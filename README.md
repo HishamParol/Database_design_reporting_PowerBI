@@ -82,4 +82,6 @@ The following Business Intelligence analysis  were calculated to provide insight
 * Sales and quantity sold by product, by customer, by day
 
 ## PowerBI Dashboard
-![Click here to see PowerBI Dashboard](/PowerBI/BI_Report.pdf)
+* ![Click here to see PowerBI Dashboard](/PowerBI/BI_Report.pdf)
+* ![Click here to download PowerBI Report](/PowerBI/BI_Report.pdix)
+
