@@ -83,5 +83,5 @@ The following Business Intelligence analysis  were calculated to provide insight
 
 ## PowerBI Dashboard
 * ![Click here to see PowerBI Dashboard](/PowerBI/BI_Report.pdf)
-* ![Click here to download PowerBI Report](/PowerBI/BI_Report.pdix)
+* ![Click here to download PowerBI Report](https://github.com/HishamParol/Database_design_reporting_PowerBI/blob/main/PowerBI/BI_Report.pbix)
 
