@@ -45,3 +45,6 @@ Eliminated the transitive dependencies.
 The proposed normalised table consists of 8 independent tables and the data model is shown in the diagram below. The SQL Query I did for the normalisation task is available  [here](https://github.com/HishamParol/Database_design_reporting_PowerBI/blob/main/Normalized_Tables.sql). Relationships between tables are added through database diagram properties. 
 
 ![GitHub Logo](/Diagrams/Normalized_Table.png)
+
+## Creating Dimension and Fact tables
+![GitHub Logo](/Diagrams/DimensionAndFactTables.png)
