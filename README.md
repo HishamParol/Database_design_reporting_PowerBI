@@ -16,7 +16,7 @@ Normalisation is a process for evaluating and correcting table structures.Its pu
 * Second normal form (2NF) - Eliminated partial dependencies
 * Third normal form (3NF) - Eliminated transitive dependencies. 
 
-### Observations:
+### Normalisation Approach:
 **First normal form (1NF):**
 * Table CustomerCity (Primary key = id)
 * Table Product (Composite Key = ProductGroup,ProductCode,VariantCode)
