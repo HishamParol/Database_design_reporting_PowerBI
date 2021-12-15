@@ -36,6 +36,7 @@ Dependency based on only a part of composite PK is a partial; dependency.
 **Third noormal form (3NF):**
 Eliminated the transitive dependencies. 
 * Table CustomerCity - [Country → Region], [Region → County], [County → City]
+
 ![GitHub Logo](/Diagrams/3NF_CustomerCity.png)
 * Table OrderItem - [OrderCreateDate → Day], [Day → Month], [Month → Quarter], [Quarter → Year]
 
