@@ -8,6 +8,17 @@ MumsNet was founded in 2003 and has grown over the last years to become a UK lea
 The following three tables were used in this project and contain historic order,product and customer information from January 2005 until December 2009.
 ![GitHub Logo](/Diagrams/OriginalTables.png)
 
+##The following Business Intelligence analysis were calculated to provide insights to the different levels of organization.
+
+* Number of cancelled orders
+* Percentage of orders cancelled by the customer
+* Sales value of cancelled orders
+* Number of unfulfilled basket orders due to out of stock item(s)
+* Percentage of all unfulfilled basket orders
+* Percentage of abandoned basket orders
+* Percentage of fulfilled orders
+* Sales and quantity sold by product, by customer, by day
+
 ## Data Modelling - ER Diagram
 ## Database design and optimization - Normalisation
 ### Normalisation
